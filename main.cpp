@@ -90,7 +90,7 @@ void variableDeclarations()
     bool isValid = false;
     bool isActive = true;
     bool isEmpty = false;
-        ignoreUnused(number, nbOfwheels, age, year, height, price, discount, distance,
+    ignoreUnused(number, nbOfwheels, age, year, height, price, discount, distance,
                  weight, pi, e, largeNumber, smallNumber, initial, grade, symbol,
                  newline, isFinished, isValid, isActive, isEmpty);
 }
@@ -111,8 +111,8 @@ bool rentACar(int rentalDuration, int carType = 0)  //function declaration with 
  */
 bool greetUser(const char *firstName = "John", const char *lastName = "Doe") 
 {
-  ignoreUnused(firstName, lastName);
-  return {};
+    ignoreUnused(firstName, lastName);
+    return {};
 }
 
 /*
@@ -120,8 +120,8 @@ bool greetUser(const char *firstName = "John", const char *lastName = "Doe")
  */
 bool isGreater(int compareFrom, int compareTo) 
 {
-  ignoreUnused(compareFrom, compareTo);
-  return compareFrom > compareTo;
+    ignoreUnused(compareFrom, compareTo);
+    return compareFrom > compareTo;
 }
 
 /*
@@ -129,8 +129,8 @@ bool isGreater(int compareFrom, int compareTo)
  */
 bool isPositive(int valueToCheck) 
 {
-  ignoreUnused(valueToCheck);
-  return valueToCheck >= 0;
+    ignoreUnused(valueToCheck);
+    return valueToCheck >= 0;
 }
 
 /*
@@ -138,8 +138,8 @@ bool isPositive(int valueToCheck)
  */
 bool isEven(int number) 
 {
-  ignoreUnused(number);
-  return (number % 2) == 0;
+    ignoreUnused(number);
+    return (number % 2) == 0;
 }
 
 /*
@@ -147,8 +147,8 @@ bool isEven(int number)
  */
 int add(int firstValue, int secondValue) 
 {
-  ignoreUnused(firstValue, secondValue);
-  return firstValue + secondValue;
+    ignoreUnused(firstValue, secondValue);
+    return firstValue + secondValue;
 }
 
 /*
@@ -156,8 +156,8 @@ int add(int firstValue, int secondValue)
  */
 double calculateAverage(double num1, double num2, double num3) 
 {
-  ignoreUnused(num1, num2, num3);
-  return (num1 + num2 + num3) / 3;
+    ignoreUnused(num1, num2, num3);
+    return (num1 + num2 + num3) / 3;
 }
 
 /*
@@ -165,8 +165,8 @@ double calculateAverage(double num1, double num2, double num3)
  */
 int doubleNumber(int theNumberToDouble) 
 {
-  ignoreUnused(theNumberToDouble);
-  return theNumberToDouble * 2;
+    ignoreUnused(theNumberToDouble);
+    return theNumberToDouble * 2;
 }
 
 /*
@@ -174,8 +174,8 @@ int doubleNumber(int theNumberToDouble)
  */
 bool areEqual(int a, int b) 
 {
-  ignoreUnused(a, b);
-  return a == b;
+    ignoreUnused(a, b);
+    return a == b;
 }
 
 /*
@@ -183,8 +183,8 @@ bool areEqual(int a, int b)
  */
 int calculateVolume(int length, int width, int height) 
 {
-  ignoreUnused(length, width, height);
-  return length * width * height;
+    ignoreUnused(length, width, height);
+    return length * width * height;
 }
 
 /*
@@ -192,8 +192,8 @@ int calculateVolume(int length, int width, int height)
  */
 bool isLeapYear(int year) 
 {
-  ignoreUnused(year);
-  return (year % 4 == 0 && year % 100 != 0) || (year % 400 == 0);
+    ignoreUnused(year);
+    return (year % 4 == 0 && year % 100 != 0) || (year % 400 == 0);
 }
 
 /*
